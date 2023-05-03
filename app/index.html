@@ -9,9 +9,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600;700&display=swap"
         rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/style.min.css">
 
+    <script defer src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script defer src="js/main.min.js"></script>
     <title>Dubai</title>
 </head>
@@ -89,25 +90,73 @@
                     </ul>
                 </nav>
 
-                <div class="aboutSlider">
-                    <video src="" class="aboutVideo" poster="images/video.webp">
+                <div class="aboutSlider swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <video src="" class="aboutVideo" poster="images/video.webp">
 
-                    </video>
+                            </video>
+    
+                            <div class="aboutSliderOverlay"></div>
+    
+                            <div class="aboutSliderInfo">
+                                <h2 class="aboutSliderTitle">
+                                    Крупнейший город Объединённых Арабских Эмиратов
+                                </h2>
+                                <p class="aboutSliderText">
+                                    Глубоководный морской порт, административный центр одноимённого эмирата, важнейший
+                                    торговый
+                                    и финансовый центр ОАЭ
+                                </p>
+                                <a class="aboutSliderBtn" href="#">
+                                    Начать инвестировать
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <video src="" class="aboutVideo" poster="images/video.webp">
 
-                    <div class="aboutSliderOverlay"></div>
+                            </video>
+    
+                            <div class="aboutSliderOverlay"></div>
+    
+                            <div class="aboutSliderInfo">
+                                <h2 class="aboutSliderTitle">
+                                    Крупнейший город Объединённых Арабских Эмиратов
+                                </h2>
+                                <p class="aboutSliderText">
+                                    Глубоководный морской порт, административный центр одноимённого эмирата, важнейший
+                                    торговый
+                                    и финансовый центр ОАЭ
+                                </p>
+                                <a class="aboutSliderBtn" href="#">
+                                    Начать инвестировать
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <video src="" class="aboutVideo" poster="images/video.webp">
 
-                    <div class="aboutSliderInfo">
-                        <h2 class="aboutSliderTitle">
-                            Крупнейший город Объединённых Арабских Эмиратов
-                        </h2>
-                        <p class="aboutSliderText">
-                            Глубоководный морской порт, административный центр одноимённого эмирата, важнейший торговый
-                            и финансовый центр ОАЭ
-                        </p>
-                        <a class="aboutSliderBtn" href="#">
-                            Начать инвестировать
-                        </a>
+                            </video>
+    
+                            <div class="aboutSliderOverlay"></div>
+    
+                            <div class="aboutSliderInfo">
+                                <h2 class="aboutSliderTitle">
+                                    Крупнейший город Объединённых Арабских Эмиратов
+                                </h2>
+                                <p class="aboutSliderText">
+                                    Глубоководный морской порт, административный центр одноимённого эмирата, важнейший
+                                    торговый
+                                    и финансовый центр ОАЭ
+                                </p>
+                                <a class="aboutSliderBtn" href="#">
+                                    Начать инвестировать
+                                </a>
+                            </div>
+                        </div>
                     </div>
+                    <div class="swiper-pagination"></div>
                 </div>
 
                 <div class="aboutSocials">
@@ -128,6 +177,7 @@
         </main>
 
     </div>
+
 </body>
 
 </html>
